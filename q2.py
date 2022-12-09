@@ -25,6 +25,9 @@ def calculaduracao():
     minuto_jogo = minuto_final - minuto_inicial    
     hora_final = hora_final + 23
     hora_jogo = hora_final - hora_inicial
+    
+   print("O jogo durou:",hora_jogo,"hr(s) e",minuto_jogo,"minuto(s)")     
+     
 
 calculaduracao() 
    
